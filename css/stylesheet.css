@@ -1,0 +1,340 @@
+/*PALLETE
+
+    #000000 - dark
+    rgba(128, 0, 128) - light
+    #D6E0F0 - lighter
+    #FFFFFF - white
+    background-color: #FFF5DE31;
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    min-width: 0;
+    font-family:"Work Sans", "Arial", "sans-serif";
+}
+
+nav {
+    background-color: rgba(128, 0, 128);
+    padding: 1%;
+    position: sticky;
+    top:0px;
+    z-index:10;
+    text-align: center;
+}
+
+
+nav li{
+    display: inline-block;
+    padding-right: 2%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0px 1px 1px black;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:purple;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: small;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background: url("../img/back1.jpeg") center center no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.banner #screen_font{
+    background-color: rgba(128, 0, 128, 0.476);
+    padding: 2% 1%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.banner h1 {
+    padding-top: 1.11rem;
+    font-size: 4rem;
+    font-weight:900px;
+    font-family:"Abril Fatface", "sans-serif";
+    color: white;
+}
+  
+.banner h3 {
+    padding: .55rem 0;
+    font-size: 1.44rem;
+    letter-spacing: 2px;
+    font-weight:500px;
+}
+
+.banner h4 {
+    padding: .55rem 0;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight:500px;
+    text-transform: uppercase;
+}
+
+.banner a {
+    margin-right: 0.1%;
+}
+
+.banner button{
+    padding:5px 8px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(20deg, rgba(128, 0, 128), white) 1;
+    box-shadow: 0px 2px 3px black;
+    text-transform: uppercase;
+}
+
+.banner button:hover{
+    border-style: solid;
+    border-image: linear-gradient(20deg, white, rgba(128, 0, 128)) 1;
+    box-shadow: 3px 3px 4px black;
+}
+
+#Players button{
+    margin: 0.5% 0%;
+}
+
+#Highlights{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    background-color: #000000;
+}
+
+.divisor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    border: solid;
+    height: 20rem;
+    text-align: center;
+}
+
+#Highlights .comment{
+    border: solid white;
+    text-transform: uppercase;
+    margin: 1% 0%;
+    color: purple;
+}
+
+#Highlights .comments{
+    margin: 1% 0%;
+}
+
+#Highlights .comments h4{
+    color: purple;
+}
+
+#Highlights .comments p{
+    color: white;
+}
+
+#Highlights .comment h3{
+    text-transform: uppercase;
+    color: white;
+    border-bottom: solid white;
+}
+
+#Highlights .videos{
+    border: solid white;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 1% 0%;
+    color: white;
+}
+
+#Highlights .videos h3{
+    text-transform: uppercase;
+    color: white;
+    border-bottom: solid white;
+}
+
+#Highlights .videos a{
+    margin: 2% 0%;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#Highlights .videos a:hover{
+    text-decoration: underline purple;
+    color: white;
+    text-shadow: 0px 1px 1px purple;
+}
+
+#Players{
+    background-color: rgba(128, 0, 128, 0.476);
+    text-align: center;
+}
+
+#Players h1{
+    background-color: rgba(128, 0, 128);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.2%  0%;
+}
+
+#Faces{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 2% 0%;
+}
+
+tr {
+    background: #f4f7f8;
+    /* margin-bottom: 5px; */
+}
+  
+th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size:18px;
+    padding: 3px 3px;
+    text-align: center;
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px black;
+}
+
+td p:hover {
+    transform: scale(0.75);
+}
+
+#Line-up{
+    background-color: white;
+    text-align: center;
+}
+
+#Line-up h1{
+    background-color: rgba(128, 0, 128);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.2%  0%;
+}
+
+#Line-up img{
+    max-height: 40vw;
+    max-width: auto;
+    border: 5px solid purple;
+    box-shadow: 0px 2px 3px black;
+}
+
+#Line-up figure{
+   text-decoration: none;
+}
+
+#Line-up figure{
+    margin: 1% 0%;
+}
+
+#Contact{
+    text-align: center;
+    background-color: rgba(128, 0, 128, 0.476);
+}
+
+#Contact h1{
+    background-color: rgba(128, 0, 128);
+    color: white;
+    text-transform: uppercase;
+}
+
+#Contact h3{
+    color: black;
+    text-transform: uppercase;
+}
+
+#Contact ul{
+    padding: 2% 0%;
+    border: solid black
+}
+
+.fa-linkedin,.fa-envelope,.fa-github,.fa-phone{
+    margin-top: 1%;
+    color:purple;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+.fa-linkedin:hover,.fa-envelope:hover,.fa-github:hover,.fa-phone:hover{
+    color:black;
+    border: solid purple;
+}
+
+th{
+    color: rgba(128, 0, 128);
+    text-transform: uppercase;
+}
+
+td img{
+    max-height: 100px;
+    max-width: auto;
+}
+
+
+@media screen and (max-width: 1080px){
+    .banner button {
+        margin: 1% 1%;
+    }
+
+    .divisor{
+        grid-gap: 3px;
+    }
+
+    td img{
+        max-height: 100px;
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .banner #screen_font{
+        padding: 0% 0% !important;
+    }
+
+    .banner h1 {
+        padding-top: 1.11rem;
+        font-size: 2rem;
+        font-weight:900px;
+        font-family:"Abril Fatface", "sans-serif";
+        color: white;
+    }
+    
+    td img{
+        max-height: 70px;
+        max-width: 60px;
+    }
+}

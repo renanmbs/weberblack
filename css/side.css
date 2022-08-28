@@ -1,0 +1,208 @@
+/*PALLETE
+
+    #000000 - dark
+    purple - light
+    rgba(128, 0, 128) - lighter
+    #FFFFFF - white
+    background-color: #FFF5DE31;
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    min-width: 0;
+    font-family:"Work Sans", "Arial", "sans-serif";
+    list-style: none;
+}
+
+nav {
+    background-color: rgba(128, 0, 128);
+    padding: 1%;
+    position: sticky;
+    top:0px;
+    z-index:10;
+    text-align: center;
+}
+
+
+nav li{
+    display: inline-block;
+    padding-right: 2%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: white;
+    text-shadow: 0px 1px 1px black;
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:purple;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: small;
+}
+
+main h1{
+    text-align: center;
+    background-image: linear-gradient(50deg, rgba(128, 0, 128), black);
+    color: white;
+    text-transform: uppercase;
+}
+
+h3{
+    text-align: center;
+    background-color: white;
+    color: purple;
+    border-top: 2px solid purple;
+    border-bottom: 2px solid purple;
+    text-transform: uppercase;
+}
+
+#PtW{
+    text-align: center;
+    height: 40rem;
+    font-size: small;
+    background-color: rgba(128, 0, 128, 0.476);
+}
+
+#PtW a{
+    text-decoration: none;
+    color: white;
+}
+
+#PtW a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+#PtW ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-auto-flow: row;
+    grid-auto-rows: 1fr;
+    align-content: center !important;
+    margin: 0% 0% 0% 0% !important;
+    padding: 0% 0% 0% 0% !important;
+}
+
+
+#PtW img{
+    height:130px;
+    width: 170px;
+    margin-top: 1%;
+    border: solid;
+}
+
+#PtW .item{
+    height:70px;
+}
+
+#PtW li{
+    margin: 1% 1%;
+}
+
+#PtW h4{
+    font-size: medium;
+    margin: 1% 0%;
+}
+
+#Tactics{
+    text-align: center;
+    height: 30rem;
+    font-size: small;
+    background-color: rgba(128, 0, 128, 0.476);
+}
+
+#Videos{
+    text-align: center;
+    height: 30rem;
+    font-size: small;
+    background-color: rgba(128, 0, 128, 0.476);
+}
+
+#Comments{
+    text-align: center;
+    height: 10rem;
+    font-size: small;
+    background-color: black;
+    color: white;
+}
+
+#Comments .top{
+    font-size: medium;
+    border-bottom: solid white;
+    padding: 0.5% 0%;
+    margin-bottom: 0.25%;
+    color: purple;
+    text-transform: none;
+}
+
+#Comments h4{
+    text-transform: uppercase;
+}
+
+#Comments p{
+    font-size: small;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+  
+.leftpane {
+      width: 25%;
+      height: 100%;
+      float: left;
+      background-color: black;
+      border-collapse: collapse;
+}
+  
+.middlepane {
+      width: 50%;
+      height: 100%;
+      float: left;
+      background-color: black;
+      border-collapse: collapse;
+}
+  
+.rightpane {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: black;
+    border-collapse: collapse;
+}
+
+footer{
+    background-color: rgba(128, 0, 128, 0.476);
+}
+
+@media screen and (max-width: 700px){
+    #PtW img{
+        height:100px;
+        max-width: 70px;
+        margin-top: 3%;
+    }
+}

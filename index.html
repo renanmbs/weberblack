@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <title>Weber State Men's Soccer Team Black</title>
+        <link href="./css/stylesheet.css" rel="stylesheet"/>
+        <script src="./Javascript/database.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="icon" href="./img/Logo.jpeg">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Highlights">Highlights</a></li>
+                <li><a href="#Players">Players</a></li>
+                <li><a href="#Line-up">Lineup</a></li>
+                <li><a href="#Contact">Contacts</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="Home">
+
+                <div class="banner">
+                    <article id="screen_font">
+                        <h1>Weber State University Men's Soccer Team</h1>
+                        <h3>Squad Black</h3>
+                        <h4>Be Better</h4>
+
+                        <a href="./html/forwards.html" target="_blank"><button>Forwards</button></a>
+                        <a href="./html/mids.html" target="_blank"><button>Midfielders</button></a>
+                        <a href="./html/defenders.html" target="_blank"><button>Defenders</button></a>
+                        <a href="./html/keepers.html" target="_blank"><button>Goalkeepers</button></a>
+                    </article>
+                </div>
+            </section>
+
+            <section id="Highlights">
+                <ul class="divisor">
+                    <ul class="comment">
+                        <li><h3>Coaches Comments</h3>
+                            <ul class="comments">
+                                <h4>Renan</h4>
+                                <p>No comment yet</p>
+                            </ul>
+
+                            <ul class="comments">
+                                <h4>Mansour</h4>
+                                <p>No comment yet</p>
+                            </ul>
+
+                            <ul class="comments">
+                                <h4>Justin</h4>
+                                <p>No comment yet</p>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="videos">
+                        <h3>Videos to Watch</h3>
+                        <section id="links">
+                            <a href="https://www.youtube.com/watch?v=mDaOAnLv538" target="_blank">4-2-3-1 Rafa Benitez</a>
+                            <a href="https://www.youtube.com/watch?v=mJ6joocBl9Q" target="_blank">4-2-3-1 Player Roles</a>
+                            <a href="https://www.youtube.com/watch?v=Y2LLoXZV7d0&t=26s" target="_blank">4-2-3-1 Player Roles II</a>
+                            <a href="https://www.youtube.com/watch?v=oGoYug8UPwg" target="_blank">4-2-3-1 Basics</a>
+                            <br><small>OBS: Just click on it. They are all links to YouTube Videos</small>
+                        </section>
+                    </ul>
+                </ul>
+            </section>
+
+            <section id="Players">
+                <a id="Players" title="Click here for the JavaScript Database of the players" onclick="printplayers()"><h1>Our Players and Coaches</h1></a>
+
+                <table id="Faces">
+                    <th colspan="3">Coaches</th>
+                    <tr>
+                        <td><p>Renan Mougenot <br> <em><small>Head Coach</small></em></p></td>
+                        <td><p>Mansour Al Hajri <br> <em><small>Assistant Coach</small></em></p></td>
+                        <td><p>Justin Foster <br> <em><small>Goalkeeper Coach</small></em></p></td>
+                    </tr>
+
+                    <th colspan="3">Forwards</th>
+                    <tr>
+                        <td><p>Agustin Torena</p></td>
+                        <td><p>Aziz Alarady</p></td>
+                        <td><p>Belal Glab</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Brandon Pearce <br> <em><small>#28</small></em></p></td>
+                        <td><p>Emmanuel Perez <br> <em><small>#11</small></em></p></td>
+                        <td><p>Gabe Juarez <br> <em><small>#18</small></em></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Jumaah Alfaihani <br> <em><small>#94</small></em></p></td>
+                        <td><p>Luis Arce <br> <em><small>#30</small></em></p></td>
+                        <td><p>Will Naughton <br> <em><small>#45</small></em</p></td>
+                    </tr>
+
+                    <th colspan="3">Midfielders</th>
+                    <tr>
+                        <td><p>Asher Jensen</p></td>
+                        <td><p>Charly Nuñez</p></td>
+                        <td><p>Jake Williams <br> <em><small>#19</small></em></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Luis Jordan <br> <em><small>#17</small></em></p></td>
+                        <td><p>Riley Wright <br> <em><small>#10</small></em></p></td>
+                        <td><p>Teegan Smith</p></td>
+                    </tr>
+
+                    <th colspan="3">Defenders</th>
+                    <tr>
+                        <td><p>Ethan Barnette <br> <em><small>#3</small></em></p></td>
+                        <td><p>James Patten <br> <em><small>#14</small></em></p></td>
+                        <td><p>Jorge Benitez <br> <em><small>#26</small></em></p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Kaden Hecker <br> <em><small>#22</small></em></p></td>
+                        <td colspan="2"><p>Kolton Kitchin <br> <em><small>#24</small></em></p></td>
+                    </tr>
+                    <th colspan="3">Goalkeeper</th>
+                    <tr>
+                        <td colspan="3"><p>Tyler Bagley <br><em><small> #2</small></em></p></td>
+                    </tr>
+
+                </table>
+
+            </section>
+
+            <section id="Line-up">
+                <h1>Line-up for the next game</h1>
+                <figure>
+                    <a href="./img/lineup.jpeg" target="_blank"><img src="./img/lineup.jpeg"></a>
+                    <figcaption>Formation: 4-2-3-1</figcaption>
+                </figure>
+            </section>
+
+            <section id="Contact">
+                <h1>Contact the Coaches</h1>
+                <ul>
+                    <h3>Renan Mougenot Breviglieri Silva</h3>
+                    <li>Phone: 801-499-4558</li>
+                    <li>E-mail: renan.mougenot@gmail.com</li>
+                    <li><a href="mailto:renan.mougenot@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="tel:(+1) 801-499-4558" target="_blank"><i class="fa fa-phone"></i></a></li>
+                </ul>
+
+                <ul>
+                    <h3>Mansour Al Hajri</h3>
+                    <li>Phone: 801-644-4577</li>
+                    <li>E-mail: realmansour@gmail.com</li>
+                    <li><a href="mailto:realmansour@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="tel:(+1) 801-644-4577" target="_blank"><i class="fa fa-phone"></i></a></li>
+                </ul>
+
+                <ul>
+                    <h3>Justin Foster</h3>
+                    <li>Phone: 385-288-9155</li>
+                    <li>E-mail: justin9foster@gmail.com</li>
+                    <li><a href="mailto:justin9foster@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        <a href="tel:(+1) 385-288-9155" target="_blank"><i class="fa fa-phone"></i></a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <a href="#Home" class="top">Top</a>
+            <p>Designed by: Renan Mougenot Breviglieri Silva</p>
+        </footer>
+    </body>
+</html>
