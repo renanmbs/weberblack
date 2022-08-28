@@ -4,7 +4,7 @@ const forward = [["Agustin Torena", "#"], ["Aziz Alarady", "#96"], ["Belal Glab"
 ["Gabe Juarez", "#18"], ["Jumaah Alfaihani", "#94"], ["Luis Arce", "#12"], ["Will Naughton", "#45"]];
 const mid = [["Asher Jensen", "#7"], ["Charly Nuñez", "#8"], ["Jake Williams", "#19"], ["Luis Jordan", "#17"],["Riley Wright", "#10"], 
 ["Teegan Smith", "#"]];
-const def = [["Ethan Barnette", "#3"], ["James Patten", "#14"], ["Jorge Benitez", "#26"], ["Kaden Hecker", "#22"],["Kolton Kitchin", "#24"]];
+const def = [["Ethan Barnette", "#3"], ["James Patten", "#14"], ["Jorge Benitez", "#26"], ["Kaden Hecker", "#22"],["Kolton Kitchin", "#24"],["Kontey Simpore", "#16"]];
 const gk = [["Tyler Bagley", "#2"]];
 
 
