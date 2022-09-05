@@ -100,10 +100,9 @@ h3{
     grid-auto-flow: row;
     grid-auto-rows: 1fr;
     align-content: center !important;
-    margin: 0% 0% 0% 0% !important;
+    /* margin: 0% 0% 0% 0% !important; */
     padding: 0% 0% 0% 0% !important;
 }
-
 
 #PtW img{
     height:130px;
@@ -117,7 +116,7 @@ h3{
 }
 
 #PtW li{
-    margin: 1% 1%;
+    margin: 1% 0%;
 }
 
 #PtW h4{
@@ -130,6 +129,7 @@ h3{
     height: 30rem;
     font-size: small;
     background-color: rgba(128, 0, 128, 0.476);
+    padding-top: 1%;
 }
 
 #Videos{
@@ -204,5 +204,6 @@ footer{
         height:100px;
         max-width: 70px;
         margin-top: 3%;
+        aspect-ratio: auto 1 / 1; 
     }
 }

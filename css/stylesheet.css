@@ -299,11 +299,6 @@ th{
     text-transform: uppercase;
 }
 
-td img{
-    max-height: 100px;
-    max-width: auto;
-}
-
 
 @media screen and (max-width: 1080px){
     .banner button {
@@ -312,11 +307,6 @@ td img{
 
     .divisor{
         grid-gap: 3px;
-    }
-
-    td img{
-        max-height: 100px;
-        max-width: 100px;
     }
 }
 
@@ -331,10 +321,5 @@ td img{
         font-weight:900px;
         font-family:"Abril Fatface", "sans-serif";
         color: white;
-    }
-    
-    td img{
-        max-height: 70px;
-        max-width: 60px;
     }
 }
