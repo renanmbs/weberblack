@@ -322,4 +322,9 @@ th{
         font-family:"Abril Fatface", "sans-serif";
         color: white;
     }
+
+    table p{
+        border: solid red;
+        font-size: small;
+    }
 }
