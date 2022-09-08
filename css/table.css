@@ -1,0 +1,58 @@
+/*PALLETE
+
+    #000000 - dark
+    purple - light
+    rgba(128, 0, 128) - lighter
+    #FFFFFF - white
+    background-color: #FFF5DE31;
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    min-width: 0;
+    font-family:"Work Sans", "Arial", "sans-serif";
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t1{ 
+    border: 2px solid purple;
+}
+
+/* tr{
+    border: 500px solid black !important;
+} */
+
+td,th{
+    padding: 0.75rem;
+    border: 2px solid black;
+}
+
+.one{
+    color: purple;
+}
+
+td:hover{
+    text-decoration: underline purple;
+}
+
+.special, .yellow{
+    color: goldenrod;
+}
+
+.practice, .red{
+    color: red;
+}
+
+.game, .green{
+    color: green;
+}
+
+.t2, .t3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: solid black;
+}
