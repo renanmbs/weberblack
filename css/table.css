@@ -56,3 +56,7 @@ td:hover{
     margin-bottom: 0.5rem;
     border: solid black;
 }
+
+p{
+    padding-bottom: 1rem;
+}
