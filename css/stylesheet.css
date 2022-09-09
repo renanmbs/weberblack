@@ -181,11 +181,14 @@ footer p{
     border-bottom: solid white;
 }
 
-#Highlights .videos a{
-    margin: 2% 0%;
+#Highlights button{
+    border: solid purple;
+    padding: 0.25rem;
+    text-transform: uppercase;
     text-decoration: none;
-    color: white;
-    display: block;
+    list-style: none;
+    color: purple;
+    margin: 15% auto;
 }
 
 #Highlights .videos a:hover{
@@ -231,6 +234,14 @@ th, td {
 
 td p:hover {
     transform: scale(0.75);
+}
+
+.game:hover {
+    color: purple;
+}
+
+.practice:hover {
+    color: red;
 }
 
 #Line-up{
@@ -308,6 +319,11 @@ th{
     .divisor{
         grid-gap: 3px;
     }
+
+    #Highlights button{
+        padding: 0.50rem 0.5px !important;
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 660px){
@@ -325,5 +341,10 @@ th{
 
     table p{
         font-size: small;
+    }
+
+    #Highlights button{
+        padding: 0.25rem 0.25px !important;
+        font-size: x-small;
     }
 }
