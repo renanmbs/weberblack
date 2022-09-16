@@ -185,10 +185,13 @@ footer p{
     border: solid purple;
     padding: 0.25rem;
     text-transform: uppercase;
-    text-decoration: none;
     list-style: none;
-    color: purple;
     margin: 15% auto;
+}
+
+#Highlights .videos a{
+    text-decoration: none;
+    color: purple;
 }
 
 #Highlights .videos a:hover{
