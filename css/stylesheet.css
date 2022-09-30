@@ -221,7 +221,6 @@ footer p{
 
 tr {
     background: #f4f7f8;
-    /* margin-bottom: 5px; */
 }
   
 th, td {
@@ -272,6 +271,18 @@ td p:hover {
 
 #Line-up figure{
     margin: 1% 0%;
+}
+
+#Line-up table{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+#Line-up .player{
+    background-color: purple;
+    color: white;
 }
 
 #Contact{
