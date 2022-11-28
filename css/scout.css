@@ -103,6 +103,11 @@ span{
     font-size: 1.02rem;
 }
 
+@media screen and (max-width: 660px){
+    *{
+        font-size: small;
+    }
+}
 
 
 
