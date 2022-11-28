@@ -1,0 +1,109 @@
+/*PALLETE
+
+    #000000 - dark
+    rgba(128, 0, 128) - light
+    #D6E0F0 - lighter
+    #FFFFFF - white
+    background-color: #FFF5DE31;
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Work Sans", "Arial", "sans-serif";
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    height: 45rem !important;
+    height: 100%;
+  }
+  
+  .container.x {
+    width: 100%;
+    height: 100%;
+    flex-flow: row nowrap;
+  }
+
+  /* scroll-snap */
+.x.mandatory-scroll-snapping {
+    scroll-snap-type: x mandatory;
+    scroll-margin-inline-start: 0;
+  }
+
+  .container > div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+  }
+  
+  .x.container > div {
+    width: 100%;
+    height: 100%;
+  }
+
+h1,h2{
+    color: #D6E0F0;
+    background-color: rgb(28, 1, 28);
+    font-size: 1rem;
+}
+
+#sides{
+    display: grid;
+    grid-column: minmax(0,1fr);
+}
+
+#trait li{
+    color: purple;
+}
+
+#trait h4{
+    margin: 0.2% auto;
+}
+
+#ready ul{
+    margin: 1% auto;
+}
+
+h5{
+    grid-area: 1;
+} 
+
+li{
+    list-style: none;
+}
+
+progress{
+    border: solid black;
+    background: purple;
+    color: white;
+    margin-bottom: 0.5%;
+}
+  
+  progress::-moz-progress-bar {
+    background: purple;
+    color: white;
+  }
+  
+  progress::-webkit-progress-value {
+    background: white;
+  }
+  
+  progress::-webkit-progress-bar {
+    background: purple;
+  }
+
+span{
+    color:purple;
+    font-weight: bold;
+    font-size: 1.02rem;
+}
+
+
+
+
+
