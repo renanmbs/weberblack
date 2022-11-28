@@ -107,6 +107,10 @@ span{
     *{
         font-size: small;
     }
+
+    .container {
+        height: 35rem !important;
+      }
 }
 
 
